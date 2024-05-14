@@ -1,7 +1,11 @@
+"use client";
+
+import Team from "@/components/team";
+
 export default function Home() {
   return (
-    <>
-      <h1>Team Component</h1>
-    </>
+    <div className="flex items-center justify-center m-6">
+      <Team />
+    </div>
   );
 }
